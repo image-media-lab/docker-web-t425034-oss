@@ -6,10 +6,26 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #313150;
+    color: yellow;
     padding: 20px 0;
 }
+
+li {
+    color: lightgray;
+    text-align: left;
+    margin: 10px;
+  }
+
+li a {
+    color: lightpink;
+  }
+
+ol li {
+    color:rgb(194, 129, 255);
+}
+
+
 
 .card {
     background: white;
@@ -40,4 +56,32 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.box {
+  background-color: midnightblue;
+}
+
+.space20 {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid whitesmoke;
+}
+
+
+#ex_id {
+  background-color: gray;
+}
+
+.container{
+ display: flex; /* Flexboxを有効にする */
+ gap: 20px;
+ flex-direction: row-reverse;
+ flex-wrap:wrap;
+}
+.item{
+ width: 100px;
+ height: 100px;
+ margin-top: 20px;
+ border: solid 2px whitesmoke;
 }
